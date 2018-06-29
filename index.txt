@@ -1,0 +1,14 @@
+해당 프로젝트에 대한 설명 및 공부내용 정리한 파일.
+
+20180629 권보람
+
+glup
+자동화툴로 glup 을 사용합니다.
+
+[ glup공부시 참조 사이트 ]
+ - http://programmingsummaries.tistory.com/356
+
+[ 폴더 구조 ]
+ - myhome
+   - dist / glup에 의해서 빌드된 파일이 위치
+   - src 아무 처리를 하지 않은 js / 압축안된 (s)css / 최적화 되지 않은 이미지가 위치
