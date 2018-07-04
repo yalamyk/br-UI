@@ -1,3 +1,5 @@
+@import "../../dist/scss/sprite";
+
 *{
   margin: 0;
   padding: 0;
@@ -5,8 +7,23 @@
     vertical-align: center;
   }
 }
-h1{
-  display: block;
-  font-size: 50px;
-  color:hotpink;
+#header{
+  h1{
+    display: block;
+    font-size: 50px;
+    color:hotpink;
+  }
+  ul{
+    li{
+
+    }
+  }
+}
+#main{
+  .img_box{
+    @include retina-sprite($btn-x-group);
+  }
+}
+#footer{
+
 }

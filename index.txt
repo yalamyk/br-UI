@@ -2,13 +2,19 @@
 
 20180629 권보람
 
-glup
-자동화툴로 glup 을 사용합니다.
+gulp 걸프
+자동화툴로 gulp 을 사용합니다.
 
-[ glup공부시 참조 사이트 ]
+[ gulp공부시 참조 사이트 ]
  - http://programmingsummaries.tistory.com/356
 
 [ 폴더 구조 ]
  - myhome
-   - dist / glup에 의해서 빌드된 파일이 위치
+   - dist / gulp에 의해서 빌드된 파일이 위치
    - src 아무 처리를 하지 않은 js / 압축안된 (s)css / 최적화 되지 않은 이미지가 위치
+
+ - sprite 사용시에 레티나 처리가 한방에 될수가 잇다
+
+package.json
+ - dependencies
+ - devdependencies --> gulp 실행이 안됨(task 오류남 이유모름)

@@ -2,4 +2,8 @@
 
 * img { vertical-align: center; }
 
-h1 { display: block; font-size: 50px; color: hotpink; }
+#header h1 { display: block; font-size: 50px; color: hotpink; }
+
+#main .img_box { background-image: url(../img/1x.png); background-position: 0px 0px; width: 30px; height: 29px; }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { #main .img_box { background-image: url(../img/2x.png); background-size: 30px 29px; } }
